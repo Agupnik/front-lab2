@@ -30,34 +30,44 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div id="content">
     <table>
-        <tr>
-          <td colspan="2" rowspan="2">Бондаренко</td>
-          <td>Дмитро</td>
-          <td>Сергійович</td>
-        </tr>
-        <tr>
-          <td>ІТ-92</td>
-          <td>ЛР-2 Варіант 7</td>
-        </tr>
-        <tr>
-          <td colspan="2">&nbsp;</td>
-          <td>&nbsp;</td>
-          <td rowspan="2">&nbsp;</td>
-        </tr>
-        <tr>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-      </table>
-      <div id="clock">
-          <div class="point"></div>
-          <div class="point"></div>
-          <div class="point"></div>
-          <div class="point"></div>
-          <div class="hour-point"></div>
-          <div class="minute-point"></div>
-      </div>
+      <tr>
+        <td colspan="2" rowspan="2">Бондаренко</td>
+        <td>Дмитро</td>
+        <td>Сергійович</td>
+      </tr>
+      <tr>
+        <td>ІТ-92</td>
+        <td>ЛР-2 Варіант 7</td>
+      </tr>
+      <tr>
+        <td colspan="2">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td rowspan="2">&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+    </table>
+    <div class="clock" id="clock-position">
+      <div class="point point-position"></div>
+      <div class="point point-position"></div>
+      <div class="point point-position"></div>
+      <div class="point point-position"></div>
+      <div id="hour-point-position"></div>
+      <div id="minute-point-position"></div>
+  </div>
+    <div class="clock" id="clock-transform">
+        <div class="point point-transform"></div>
+        <div class="point point-transform"></div>
+        <div class="point point-transform"></div>
+        <div class="point point-transform"></div>
+        <div id="hour-point-transform"></div>
+        <div id="minute-point-transform"></div>
+    </div>
+  </div>  
 </body>
 </html>
